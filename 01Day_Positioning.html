@@ -51,3 +51,42 @@
     </div>
 
 </div>
+
+
+<!-- 🔹 Box Model (Sizing & Spacing)
+Tailwind uses a 4px scale
+w-4 = 16px, w-10 = 40px
+Padding (p-) → space inside the box
+Margin (m-) → space outside the box
+Rounding
+rounded-md → slight curve
+rounded-xl → more rounded
+rounded-full → circle
+
+🔹 Visual Depth
+Borders
+border-{size} + border-{color}
+Custom sizes → border-[6px] (JIT syntax)
+Shadows
+shadow-md → light depth
+shadow-2xl → strong “floating” effect
+
+🔹 Absolute Positioning (Sticker Rule)
+Parent → relative (acts as anchor)
+Child → absolute (can move freely)
+Use positioning:
+top-0, bottom-0, left-0, right-0
+
+👉 Think:
+
+Parent = wall
+Child = sticker placed on that wall
+🔹 Nested Layering
+You can stack layouts by combining:
+absolute (positioning)
+relative (anchor for children)
+
+👉 This lets you build complex UI without breaking layout
+
+🔹 Key Takeaway
+If a child is stretching/pushing the parent → you probably forgot absolute -->
