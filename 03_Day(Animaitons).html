@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3 challenge!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body >
+    <div class="flex justify-center items-center gap-6 w-full h-screen bg-gray-800 flex-row md:flex-col">
+        <button class="bg-pink-500 text-white font-bold px-4 py-3 rounded-2xl transition transform hover:shadow-xl hover:scale-105 duration-300 active:scale-95 hover:-translate-y-1">Click Me</button>
+        <button class="bg-red-600 text-white font-bold px-4 py-3 rounded-2xl transition transform duration-300 hover:bg-red-500 hover:shadow-2xl active:scale-95 shadow-md hover:scale-105 cursor-pointer ">Click Me</button>
+        <button class="bg-green-500 text-white font-bold px-4 py-3 rounded-2xl transition transform duration-300 hover:scale-105 active:scale-95 cursor-pointer shadow-md hover:shadow-2xl hover:-translate-y-1">Click Me</button>
+
+    </div>
+    
+</body>
+</html>
+
+<!-- 🔹 1. Transitions (Smoothness)
+transition → enables animation
+duration-300 → controls speed
+Without this → animations feel jumpy
+🔹 2. Transforms (Movement)
+scale-105 → grow slightly
+-translate-y-1 → move up (lift effect)
+Used to create interactive motion
+🔹 3. Interaction States
+hover: → when mouse is over
+active: → when clicked
+
+👉 Example:
+
+hover:scale-105 → hover effect
+active:scale-95 → press effect
+🔹 4. Shadows & Depth
+shadow-md → base shadow
+shadow-2xl → strong shadow
+
+👉 Key idea:
+
+Start small → increase on hover
+Creates a “floating” effect
+🔹 5. Combining Effects (Most Important)
+
+Real UI = multiple utilities together
+
+👉 Example:
+
+hover:scale-105 + hover:shadow-xl + hover:-translate-y-1
+🔹 6. Button Types You Built
+Lift Button → moves up + grows + shadow
+Glow Button → color + strong shadow
+Press Button → shrinks on click
+🔹 7. Layout Improvement
+Used flex + justify-center + items-center
+Used gap-6 for spacing
+Fixed responsive logic:
+flex-col md:flex-row
+🔹 8. Card Structure (BIG UPGRADE)
+
+You learned layering:
+
+Background (dark)
+   ↓
+Card (white box with padding + shadow)
+   ↓
+Buttons (interactive elements)
+🔥 Key Takeaway
+
+👉 Good UI = subtle movement + smooth transitions + depth
+
+Not big crazy animations. -->
