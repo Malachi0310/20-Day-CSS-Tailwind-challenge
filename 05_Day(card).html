@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Day 4 card</title>
+</head>
+<body>
+    <div class="bg-gray-800 flex justify-center items-center w-full h-screen">
+        
+        <div class="bg-white flex justify-center items-center flex-col shadow-xl rounded-xl overflow-hidden gap-4 p-6 max-w-sm hover:shadow-2xl transition duration-300 hover:scale-[1.02]">
+        <img src="https://picsum.photos/300/200" alt="image" class="w-full h-48 object-cover ">     
+        <h2 class="text-2xl font-bold text-gray-800">Card Title</h2>
+        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="bg-blue-500 text-white font-bold px-4 py-2 rounded-lg transition transform duration-300 hover:bg-blue-600 hover:shadow-lg hover:-translate-y-1 active:scale-95">Read More</button>
+        
+        </div>
+    </div>
+    
+</body>
+</html>
+
+<!-- 2. Card Styling
+bg-white → clean look
+rounded-xl → modern edges
+shadow-xl → depth
+overflow-hidden → fixes image overflow
+🔹 3. Image Handling
+w-full → full width
+h-48 → fixed height
+object-cover → no stretching
+🔹 4. Spacing & Layout
+p-6 → internal spacing
+gap-4 → spacing between elements
+max-w-sm → controls card width
+🔹 5. Reusing Animations (Day 3)
+hover:scale
+hover:-translate-y
+hover:shadow
+active:scale-95
+
+👉 You applied animation to a real component
+
+🔹 6. UI Layering
+Background (dark)
+   ↓
+Card (white)
+   ↓
+Content (text + button)
+🔥 Key Takeaway
+
+👉 You’re no longer just styling…
+
+You’re building reusable UI components like real frontend devs
+
+🧠 Level Up Status
+Day 2 → layout ✅
+Day 3 → interaction ✅
+Day 4 → components ✅🔥 -->
